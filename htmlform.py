@@ -1,0 +1,22 @@
+import webbrowser
+form = open('form.html', 'w')
+html_template = """<html lang = 'en'>
+<head>
+<meta charset= 'utf-8'>
+<meta name='viewport' content='width=device-width'>
+<meta http-equiv= 'X-UA compatible' content= 'IE-edge'>
+<title>form element</title>
+</head>
+<body>
+<div id ='wrapper' style='background-color: red;'>
+<form action='' method =''>
+<input type='text' placeholder='Input your first name'>
+<input type='password' placeholder='password'>
+<button type='submit'>Sign In</button>
+</form>
+</div>
+</body>
+</html>"""
+form.write(html_template)
+form.close()
+webbrowser.open('form.html')

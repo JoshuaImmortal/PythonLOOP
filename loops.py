@@ -25,7 +25,16 @@
 #    x += 1
 
 
-x = 0
-while x<=10:
-   x += 1
-   print(x * 2)
+# x = 0
+# while x<=10:
+#    x += 1
+#    print(x * 2)
+
+# x = 1
+# while x <= 12:
+#     print(x * 2)
+#     x += 1
+
+# for x in range(2, 26, 2):
+#     print(x)
+
