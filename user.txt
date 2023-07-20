@@ -1,0 +1,3 @@
+username:  Charlie
+password:  20025
+person = {'name': ' Charlie', 'password': ' 20025'}

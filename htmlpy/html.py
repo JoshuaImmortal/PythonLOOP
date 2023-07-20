@@ -1,4 +1,6 @@
-<html lang="en">
+import webbrowser;
+sample = open('index.html', 'w')
+code = """<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,4 +16,7 @@
     </form>
  </div>
 </body>
-</html>
+</html>"""
+sample.write(code)
+sample.close()
+webbrowser.open('index.html') 

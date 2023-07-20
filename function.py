@@ -5,7 +5,7 @@
 # non-positional arguement
 
 # def myCalc(a, b):
-#     multi = a*b
+#     multi = a*b   
 #     add = a+b
 #     minus = a-b
 #     print(multi, add, minus)
@@ -15,3 +15,4 @@
 # Lambda function:
 # y = lambda a: a*2
 # print(y(5))
+

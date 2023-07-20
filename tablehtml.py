@@ -1,5 +1,5 @@
 import webbrowser
-table = open('table.html','w')
+table = open('tablee.html','w')
 table_template ="""<html lang ='en'>
 <head>
 <meta charset='utf-8'>
@@ -36,4 +36,4 @@ table_template ="""<html lang ='en'>
 </html>"""
 table.write(table_template)
 table.close()
-webbrowser.open('table.html')
+webbrowser.open('tablee.html')

@@ -1,0 +1,14 @@
+
+    *{
+        margin:0;
+        box-sizing:border-box
+    }
+    #wrapper{
+        border: .2rem solid green;
+    }
+    form{
+        border: .1rem ridge red;
+        width:50%;
+        margin: 0 auto;
+        /*height:50vh;*/
+    }

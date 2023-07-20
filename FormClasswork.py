@@ -1,0 +1,22 @@
+import webbrowser
+classwork = open('classwork.html','w')
+Template = """<html lang ='en'>
+<head>
+<meta charset= 'utf-8'>
+<meta name='viewport' content='width=device-width'>
+<meta http-equiv= 'X-UA compatible' content= 'IE-edge'>
+<title>form classwork</title>
+</head>
+<body>
+<div id ='wrapper' style='background-color: purple;'>
+<form action='' method =''>
+<input type='text' placeholder='Full Name'>
+<input type='password' placeholder='Password'>
+<button type='submit'>Sign in</button>
+</form>
+</div>
+</body>
+</html>"""
+classwork.write(Template)
+classwork.close()
+webbrowser.open('classwork.html')
