@@ -8,16 +8,16 @@ import re
 #          print("Error; you're not registered")
 #     break
 
-# txt = "the rain in spain"
-# # x = re.search("spain", txt)
+txt = "the rain in spain"
+# x = re.search("spain", txt)
 # # print(x)
 # # if x:
 # #     print("the space is found: ", x.start())
 # # else:
 # #     raise TypeError("not a match")
-# y = re.split("\s", txt, 3)
+y = re.split("\s", txt, 3)
 # z = re.sub("\s", "*", txt, 3)
-# print(z)
+print(y)
 
 # profiles = ["john", "kemi", "matthew", "chisom"]
 # username = input("username: ")

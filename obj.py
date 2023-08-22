@@ -20,28 +20,39 @@
 #         print(f"The sound my dog makes is {sound}")
 # Sound.fsound('woof, woof')
 
-class Person():
-    def __init__(self, name, number):
-        self.name = name
-        self.number = number
-    def display(self):
-        print(f'My name is  {self.name}')
-    # def disploy(self):
-    #     (f'and my number is  {self.number}')
+# class Person():
+#     def __init__(self, name, number):
+#         self.name = name
+#         self.number = number
+#     def display(self):
+#         print(f'My name is  {self.name}')
+#     # def disploy(self):
+#     #     (f'and my number is  {self.number}')
 
-class Employee(Person):
-    def __init__(self, name, number, age):
-        super().__init__(name, number)
-        self.name = name
-        self.number= number
-        self.age = age
-    def details(self):
-        print(f'my name is {self.name}')
+# class Employee(Person):
+#     def __init__(self, name, number, age):
+#         super().__init__(name, number)
+#         self.name = name
+#         self.number= number
+#         self.age = age
+#     def details(self):
+#         print(f'my name is {self.name}')
 
-Joshua = Person('Joshua', 4567890)
-# Joshua.display()
+# Joshua = Person('Joshua', 4567890)
+# # Joshua.display()
 
-mgt = Employee('John', 234543234, 21)
-# mgt.details()
-mgt.display()
+# mgt = Employee('John', 234543234, 21)
+# # mgt.details()
+# mgt.display()
 
+class Anime():
+    def __init__(ranking, anime, ranks) -> None:
+        ranking.anime = anime
+        ranking.rank = ranks
+    def bleaching(anime):
+        print(f'My favorite anime is {anime} \n')
+    def bleachers(ranks):
+        print(f'The anime ranks in the big 3 and it is number {ranks}.')
+fanpage = Anime
+fanpage.bleaching('Bleach')
+fanpage.bleachers(2)
