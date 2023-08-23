@@ -17,7 +17,8 @@
 # Number 3
 # import re
 # stingify = "pablo, escobar01, rene, shallipopi, seyivibez23, asake, verizon202"
-# matching = re.findall("\w" "+" "\d", stingify)
+# pattern = "\w" "+" "\d"
+# matching = re.findall(pattern, stingify)
 # print(matching)
 
 # Number 4+
@@ -31,13 +32,15 @@
 # Number 5
 # import re
 # words = "'eleniyan', 'tofunmi', 'agbero', 'semi', 'akande', 'gbogunmi'"
-# begin = re.search("^(a|e)+\.+[a-z]", words)
+# pattern = r"\b(e\w+|a\w+)"
+# begin = re.findall(pattern, words)
 # print(begin)
 
 # Number 6
 # import re 
 # emails = input("Your email: ")
-# validate = re.findall("^[a-z]+@+(gmail|yahoomail)+\.+(com|net|org|edu)$", emails)
+# pattern = "^[a-z]+@+(gmail|yahoomail)+\.+(com|net|org|edu)$"
+# validate = re.findall(pattern, emails)
 # print(validate)
 # if validate:
 #     print("registration successfull")
